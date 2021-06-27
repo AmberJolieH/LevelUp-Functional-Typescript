@@ -10,3 +10,8 @@
         
 - make sure there's a single version and all the others are marked as deduped.
 
+## Typed functional programming in TypeScript 
+
+ - provides developers with popular patterns and reliable abstractions from typed functional languages in TypeScript.
+
+ - The goal of fp-ts is to empower developers to write pure FP apps and libraries built atop higher order abstractions. It includes the most popular data types, type classes, and abstractions from languages like Haskell, PureScript, and Scala.
