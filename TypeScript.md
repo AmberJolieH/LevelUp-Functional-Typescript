@@ -46,4 +46,7 @@ example
 
 ## - ANY type
 
+Variables of type **any** can be assigned to any value and TypeScript won’t give an error if they’re reassigned to a different type later on.
+
+# variable type annotations
 
