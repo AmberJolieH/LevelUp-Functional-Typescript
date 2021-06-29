@@ -42,3 +42,8 @@ example
 "MY".toLowercase();
 // Property 'toLowercase' does not exist on tyoe "my"
 // Did you mean "toLowerCase"
+```
+
+## - ANY type
+
+
