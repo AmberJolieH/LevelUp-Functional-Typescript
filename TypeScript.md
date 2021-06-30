@@ -23,7 +23,7 @@ that variable can never be reassigned a value of a different data type.
     - string
     - undefined
 
-# Type Shades
+# Type Shapes
 
 An objects shape describes what properties and methods it does or doesnt contain. 
 
@@ -50,3 +50,39 @@ Variables of type **any** can be assigned to any value and TypeScript won’t gi
 
 # variable type annotations
 
+# type hints
+
+Found in TypeScript but not JS 
+- Interfaces
+- Namespaces
+- Generics
+- Abstract classes
+- Data modifiers
+- Optionals
+- Function overloading
+- Decorators
+- Type utils
+- readonly keyword
+
+
+# Compiler options
+- By using compiler options, you can control how the JavaScript is generated from the source TypeScript. You can set the options either at the command prompt, as you would with many command-line interfaces, or in a JSON file named tsconfig.json.
+
+- Numerous compiler options are available to you. You can find a complete list of options in the tsc command-line interfaces documentation. Here are a few of the most 
+
+    - common options:
+    - noImplicitAny
+    - noEmitOnError
+    - target
+    - the directory options
+
+
+- To control the compilation, you can use compiler options with the tsc command, including:
+
+    - The --noImplicitAny option instructs the compiler to raise errors on expressions and declarations with an implied any type. For example:
+        
+            tsc utility_functions.ts --noImplicitAny
+    
+    - The --target option specifies the ECMAScript target version for the JavaScript file. This example compiles an ECMAScript 6-compliant JavaScript file:
+            
+            tsc utility_functions.ts --target "ES2015"
