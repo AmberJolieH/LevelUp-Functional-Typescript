@@ -1,0 +1,6 @@
+- pure functions
+- immutable data 
+- functional code is stateless
+- functions as arguments 
+- functionst as return value (functions that return functions)
+- Functional Reactive Programming
