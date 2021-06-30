@@ -1,3 +1,6 @@
+
+![fp-ts-logo](https://user-images.githubusercontent.com/67670488/123895526-957dd080-d925-11eb-89a5-cb0ebe6dae8b.png)
+
 # Level Up Project
 
 ## Set up
