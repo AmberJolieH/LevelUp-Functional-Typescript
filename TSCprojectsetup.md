@@ -10,3 +10,6 @@ CLI:
         
         - a. On the Explorer pane, create a new folder in your project called build.
         - b. In the tsconfig.json file, look for the outDir option, remove the comment, and set the parameter to build.
+
+- Save the tsconfig.json file.
+- At the command prompt, **enter tsc**. This reads the jsconfig.json file and resets the options for the project.
